@@ -1,14 +1,14 @@
 package br.org.eldorado.workshop2;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 
-public class ActivitiesFirstActivity extends Activity {
+public class ActivitiesFirstActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

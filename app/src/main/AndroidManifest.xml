@@ -20,8 +20,8 @@
         <activity android:name=".ActivitiesSecondActivity" />
         <activity android:name=".ServiceActivity" />
         <activity android:name=".GridActivity" />
+        <activity android:name=".fragments.FragmentExampleActivity" />
 
         <service android:name=".WorkshopService" />
     </application>
-
 </manifest>
