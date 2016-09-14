@@ -6,24 +6,25 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:weightSum="4">
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/button1"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="2"
+            android:layout_weight="1"
             android:onClick="FragmentOneClick"
-            android:text="Fragment One" />
+            android:text="@string/fragment_one" />
 
         <Button
             android:id="@+id/button2"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="2"
+            android:layout_weight="1"
             android:onClick="FragmentTwoClick"
-            android:text="Fragment Two" />
+            android:text="@string/fragment_two" />
     </LinearLayout>
 
     <fragment

@@ -20,7 +20,10 @@
         <activity android:name=".ActivitiesSecondActivity" />
         <activity android:name=".ServiceActivity" />
         <activity android:name=".GridActivity" />
-        <activity android:name=".fragments.FragmentExampleActivity" />
+        <activity
+            android:name=".fragments.FragmentExampleActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
 
         <service android:name=".WorkshopService" />
     </application>
