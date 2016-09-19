@@ -38,12 +38,12 @@ public class ImageAdapter extends BaseAdapter {
 
     @Override
     public Object getItem(int i) {
-        return null;
+        return IMAGES[i];
     }
 
     @Override
     public long getItemId(int i) {
-        return 0;
+        return i;
     }
 
     @Override

@@ -1,12 +1,12 @@
 package br.org.eldorado.workshop2;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 
-public class ServiceActivity extends Activity {
+public class ServiceActivity extends AppCompatActivity {
     private static final String TAG = "ServiceActivity";
     private Intent serviceIntent;
 
@@ -17,7 +17,7 @@ public class ServiceActivity extends Activity {
     }
 
     public void startServiceTapped(View view) {
-        serviceIntent = new Intent(getBaseContext(), WorkshopService.class);
+        serviceIntent = new Intent(this, WorkshopService.class);
         startService(serviceIntent);
     }
 
