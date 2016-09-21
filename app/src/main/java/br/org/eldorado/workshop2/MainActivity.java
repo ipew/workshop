@@ -16,7 +16,7 @@ import br.org.eldorado.workshop2.fragments.FragmentExampleActivity;
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
     private static final String[] EXAMPLES = new String[]{"Activity", "Shared Preferences",
-            "Fragment", "Service", "GridView"};
+            "Fragment", "Service", "GridView", "Sensors"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +50,9 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case 4:
                         startActivity(new Intent(holder, GridActivity.class));
+                        break;
+                    case 5:
+                        startActivity(new Intent(holder, SensorActivity.class));
                         break;
                     default:
                         Toast.makeText(getApplicationContext(), R.string.example_default_text, Toast.LENGTH_SHORT).show();

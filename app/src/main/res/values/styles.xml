@@ -8,4 +8,9 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="SensorsStyle" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/customColorPrimary</item>
+        <item name="colorPrimaryDark">@color/customColorPrimaryDark</item>
+    </style>
+
 </resources>

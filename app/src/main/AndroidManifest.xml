@@ -26,5 +26,7 @@
             android:screenOrientation="portrait" />
 
         <service android:name=".WorkshopService" />
+
+        <activity android:name=".SensorActivity" android:theme="@style/SensorsStyle" />
     </application>
 </manifest>
